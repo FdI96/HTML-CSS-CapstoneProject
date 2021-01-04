@@ -19,6 +19,7 @@ body {
 
 h1 {
   color: white;
+  letter-spacing: 5px;
 }
 
 .nav-buttons-ul {
@@ -44,32 +45,162 @@ h1 {
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .img-bg-container::after {
-    content: ' ';
-    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.671),transparent);;
-    height: 812px;
-    width: 100%;
-    z-index: 2;
-    position: absolute;
+  content: ' ';
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.671),transparent);;
+  height: 812px;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
 }
 
 .img-bg-container::before {
-    content: ' ';
-    background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.671),transparent);;
-    height: 812px;
-    width: 100%;
-    z-index: 1;
-    position: absolute;  
+  content: ' ';
+  background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.671),transparent);;
+  height: 812px;
+  width: 100%;
+  z-index: 1;
+  position: absolute;  
 }
 
 .tittle-form-container {
   position: absolute;
   display: flex;
   flex-direction: column;
-  margin: auto;
   width: 80%;
-  border: 3px solid green;
   z-index: 3;
+}
+
+.img-bg-insidetittle {
+  text-align: center;
+  color: white;
+}
+
+.insideform-container {
+  background-color: rgb(182, 180, 180);
+  opacity: 0.9;
+  border-radius: 15px;
+}
+
+.insideform-container h6 {
+  padding: 10px 10px 0 10px;
+  margin: 0;
+}
+
+.insideform-container input {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  padding: 0 5px 0 5px;
+  border: none;
+}
+
+.insideform-container input:focus {
+  border: 3px solid #555;
+}
+
+.form-container {
+  margin: 10px;
+}
+
+.search-red-container {
+  background-color: rgb(224, 62, 8);
+  text-align: center;
+  padding: 5px;
+}
+
+.search-red-container h6 {
+  color: white;
+  position: relative;
+  bottom: 5px;
+}
+
+.how-container {
+  background-color: rgb(182, 180, 180);
+  opacity: 0.9;
+  font-size: 1rem;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  left: 40px;
+  width: 120px;
+}
+
+.mid-part {
+  display: none;
+}
+/* End of mobile version */
+
+@media (min-width: 768px) {
+  #navbar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-tittle {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+  }
+
+  .nav-tittle h1 {
+    padding-left: 20px;
+    margin-left: 20px;
+  }
+
+  .nav-buttons {
+    width: 50%;
+  }
+
+  .nav-buttons-ul {
+    padding-bottom: 10px;
+    width: 80%;
+  }
+
+  .img-bg-container {
+    background-image: url('images/mdscreen.jpg');
+  }
+
+  .img-bg-insidetittle {
+    font-size: 30px;
+  }
+
+  .tittle-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .insideform-container {
+    width: 70%;
+  }
+
+  .input-n-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+  }
+
+  .input-n-search input {
+    width: 60%;
+  }
+
+  .search-red-container {
+    width: 20%;
+    height: 30px;
+    padding: 0;
+    background-color: rgb(68, 154, 234);
+  }
+
+  .how-container {
+    left: 0;
+  }
 }
