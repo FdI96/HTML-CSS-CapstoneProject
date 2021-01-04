@@ -1,1 +1,75 @@
 /* Mobile Version */
+body {
+  overflow-x: hidden;
+}
+#navbar {
+  background-color: rgb(224, 62, 8);
+}
+
+.nav-tittle {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.fa-map-marker-alt {
+  font-size: 40px;
+}
+
+h1 {
+  color: white;
+}
+
+.nav-buttons-ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-bottom: 0;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 0;
+  width: 50%;
+}
+
+.nav-buttons-ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.img-bg-container {
+  background-image: url('images/warmhouse-bg.jpg');
+  height: 812px;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.img-bg-container::after {
+    content: ' ';
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.671),transparent);;
+    height: 812px;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+}
+
+.img-bg-container::before {
+    content: ' ';
+    background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.671),transparent);;
+    height: 812px;
+    width: 100%;
+    z-index: 1;
+    position: absolute;  
+}
+
+.tittle-form-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+  border: 3px solid green;
+  z-index: 3;
+}
