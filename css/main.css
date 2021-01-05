@@ -1,0 +1,531 @@
+/* Mobile Version */
+body {
+  overflow-x: hidden;
+}
+#navbar {
+  background-color: #D4574A;
+}
+
+.nav-tittle {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: white;
+}
+
+.nav-tittle i {
+  padding-right: 10px;
+}
+
+.nav-tittle a,
+.nav-tittle a:visited {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.nav-i-search,
+.nav-i-user,
+.nav-i-rss,
+.nav-i-bars {
+  display: none;
+}
+
+.fa-map-marker-alt {
+  font-size: 40px;
+}
+
+.nav-buttons-ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-bottom: 0;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 0;
+  width: 50%;
+}
+
+.nav-buttons-ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.img-bg-container {
+  background-image: url('../images/warmhouse-bg.jpg');
+  height: 812px;
+  background-position: 65% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-bg-container::after {
+  content: ' ';
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.671),transparent);
+  height: 812px;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+}
+
+.img-bg-container::before {
+  content: ' ';
+  background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.671),transparent);
+  height: 812px;
+  width: 100%;
+  z-index: 1;
+  position: absolute;  
+}
+
+.tittle-form-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  z-index: 3;
+}
+
+.img-bg-insidetittle {
+  text-align: center;
+  color: white;
+}
+
+.insideform-container {
+  background-color: rgb(182, 180, 180);
+  opacity: 0.9;
+  border-radius: 15px;
+  width: 300px;
+}
+
+.insideform-container h6 {
+  padding: 10px 10px 0 10px;
+  margin: 0;
+}
+
+.insideform-container input {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  padding: 0 5px 0 5px;
+  border: none;
+}
+
+.insideform-container input:focus {
+  border: 3px solid #555;
+}
+
+.form-container {
+  margin: 10px;
+}
+
+.search-red-container {
+  background-color: #E27F65;
+  text-align: center;
+  padding: 5px;
+}
+
+.search-red-container h6 {
+  position: relative;
+  bottom: 5px;
+}
+
+.search-red-container a,
+.search-red-container a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.how-container {
+  background-color: rgb(182, 180, 180);
+  opacity: 0.9;
+  font-size: 1rem;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  right: 40px;
+  width: 120px;
+}
+
+.mid-part {
+  display: none;
+}
+
+.lower-part {
+  display: none;
+}
+
+.footer {
+  display: none;
+}
+/* End of mobile version */
+
+@media (min-width: 768px) {
+  #navbar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-tittle {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+  }
+
+  .nav-tittle h1 {
+    padding-left: 20px;
+    margin-left: 20px;
+  }
+
+  .nav-buttons {
+    width: 50%;
+  }
+
+  .nav-buttons-ul {
+    padding-bottom: 10px;
+    width: 80%;
+  }
+
+  .img-bg-container {
+    background-image: url('../images/mdscreen.jpg');
+  }
+
+  .img-bg-insidetittle {
+    font-size: 30px;
+  }
+
+  .tittle-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .insideform-container {
+    width: 65%;
+  }
+
+  .input-n-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+    width: 100%;
+  }
+
+  .input-n-search input {
+    width: 100%;
+  }
+
+  .search-red-container {
+    width: 20%;
+    height: 30px;
+    padding: 0;
+    background-color:#509BD7;
+  }
+
+  .how-container {
+    left: 0;
+  }
+
+  .mid-part {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .mid-part-tittle {
+    color:#E27F65;
+  }
+
+  .fa-newspaper,
+  .fa-map-marked-alt,
+  .fa-wpforms,
+  .fa-truck-moving {
+    font-size: 54px;
+  }
+
+  .step {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .step p {
+    width: 50%;
+  }
+
+  .lower-part {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .more-information {
+    width: 100%;
+    text-align: center;
+  }
+
+  .info-red {
+    background-color:#E27F65;
+  }
+
+  .info-gray {
+    background-color: #98A5A5;
+  }
+
+  .info-blue {
+    background-color: rgb(68, 154, 234);
+  }
+
+  .info-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+  }
+  
+  .info {
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .move,
+  .house {
+    height: 200px;
+    width: 250px;
+    border-radius: 25rem;
+  }
+
+  .gradient::before {
+    content: ' ';
+    background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.671),transparent);
+    height: 200px;
+    width: 250px;
+    z-index: 4;
+    position: absolute;  
+    border-radius: 25rem;
+  }
+
+  .gradient::after {
+    content: ' ';
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.671),transparent);
+    height: 200px;
+    width: 250px;
+    z-index: 3;
+    position: absolute;
+    border-radius: 25rem;
+  }
+
+  .info-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    margin-left: 30px;
+    text-align: start;
+  }
+
+  .info-text-button {
+    border: none;
+  }
+
+  .button-c-red a,
+  .button-c-red a:visited {
+    text-decoration: none;
+    color:  #E27F65;
+  }
+
+  .button-c-black a,
+  .button-c-black a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .info-img-one {
+    height: 200px;
+    border-radius: 1rem;
+    width: 125px;
+  }
+  
+  .footer {
+    display: contents;
+    height: 600px;
+  }
+  
+  .top,
+  .mid {
+    height: 40%;
+    background-color: #000000;
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottom {
+    height: 20%;
+    background-color: #1F1F1F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    padding: 10px 0 10px 0;
+  }
+
+  .footer-top-ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 20px 0 20px 0;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .footer-top-list-element {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 10px 20px 10px 20px;
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-top-ul a,
+  .footer-top-ul a:visited {
+    text-decoration: none;
+    color: white;
+  }
+
+  .icon-li {
+    border-radius: 25rem;
+    border: 1px solid gray;
+    padding: 25px !important;
+    width: auto;
+  }
+
+  .fa-laptop-house {
+    font-size: 30px;
+  }
+
+  .mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+  }
+
+  .mid h6 {
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+  }
+
+  .mid p {
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+
+  .subscribe {
+    text-align: center;
+    color: white;
+    width: 20%;
+  }
+
+  .subscribe-form {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .em {
+    width: 70%;
+    background-color: #000000;
+  }
+
+  .em-button {
+    width: 30%;
+    border: none;
+    background-color: #1F1F1F;
+    color: white;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .contact-p {
+    color: #D4574A;
+  }
+
+  .social-media-icons {
+    width: 50%;
+  }
+
+  .social-media-ul {
+    list-style: none;
+    margin: 0 0 0 10px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    color: gray;
+  }
+
+  .social-media-ul li {
+    padding: 0 5px 0 5px;
+  }
+
+  .copyright {
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-i-search,
+  .nav-i-user,
+  .nav-i-rss,
+  .nav-i-bars {
+    display: contents;
+  }
+
+  .nav-buttons-ul i {
+    padding-right: 20px;
+  }
+
+  .img-bg-container {
+    background-image: url('../images/warmhouse-bg.jpg');
+    background-size: 100% 100%;
+  }
+  .insideform-container {
+    width: 65%;
+  }
+
+  .search-red-container {
+    background-color: #D4574A;
+  } 
+  
+  .grid-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+}

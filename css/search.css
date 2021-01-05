@@ -1,0 +1,96 @@
+body {
+  overflow-x: hidden;
+}
+
+#navbar {
+  background-color: #D4574A;
+}
+
+.nav-tittle {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: white;
+}
+
+.nav-tittle i {
+  padding-right: 10px;
+}
+  
+.nav-tittle a,
+.nav-tittle a:visited {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.nav-i-search,
+.nav-i-user,
+.nav-i-rss,
+.nav-i-bars {
+  display: none;
+}
+
+.fa-map-marker-alt {
+font-size: 40px;
+}
+
+.nav-buttons-ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-bottom: 0;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 0;
+  width: 50%;
+}
+
+.nav-buttons-ul a {
+  text-decoration: none;
+  color: white;
+}
+  
+
+@media (min-width: 768px) {
+  #navbar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-tittle {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+  }
+
+  .nav-tittle h1 {
+    padding-left: 20px;
+    margin-left: 20px;
+  }
+
+  .nav-buttons {
+    width: 50%;
+  }
+
+  .nav-buttons-ul {
+    padding-bottom: 10px;
+    width: 80%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-i-search,
+  .nav-i-user,
+  .nav-i-rss,
+  .nav-i-bars {
+    display: contents;
+  }
+
+  .nav-buttons-ul i {
+    padding-right: 20px;
+  }
+
+}
