@@ -203,4 +203,34 @@ h1 {
   .how-container {
     left: 0;
   }
+
+  .mid-part {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .mid-part-tittle {
+    color: rgb(224, 62, 8);
+  }
+
+  .fa-newspaper,
+  .fa-map-marked-alt,
+  .fa-wpforms,
+  .fa-truck-moving {
+    font-size: 54px;
+  }
+
+  .step {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .step p {
+    width: 50%;
+  }
 }
