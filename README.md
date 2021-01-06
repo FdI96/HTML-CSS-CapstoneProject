@@ -5,7 +5,7 @@
 # Getting started :
 
 I'm very excited to say that this is my first CapStone project for Microverse, about HTML and CSS. To be honest I really enjoyed
-working on this project. I used all of my knowledge from the past weeks to make this since semantics tags to pseudo-selectors, gradients, responsive tecnhique, linking different pages and work by myself!
+working on this project. I used all of my knowledge from the past weeks to make this since semantics tags to pseudo-selectors, gradients, responsive tecnhique, flexbox, grid, bootstrap, linking different pages and work by myself!
 
 ![screenshot](images/mainscreenshot.png)
 ![screenshot](images/searchpage.png)
