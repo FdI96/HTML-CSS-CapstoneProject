@@ -48,7 +48,9 @@ body {
   width: 50%;
 }
 
-.nav-buttons-ul a {
+.nav-buttons-ul a,
+.nav-buttons-ul a:visited,
+.nav-buttons-ul a:hover {
   text-decoration: none;
   color: white;
 }
@@ -515,6 +517,7 @@ body {
     background-image: url('../images/warmhouse-bg.jpg');
     background-size: 100% 100%;
   }
+  
   .insideform-container {
     width: 65%;
   }

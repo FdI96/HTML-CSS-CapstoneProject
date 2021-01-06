@@ -28,6 +28,113 @@
             </div>
         </nav>
     </header>
+    <main>
+        <article class="main-art">
+            <section class="filter-section">
+                <div class="filter-container">
+                    <h6>Filter by Country, State/Province and budget:</h6>
+                    <form action="">
+                        <ul class="filter-ul">
+                            <li class="filter-ul-li">
+                                <label for="country">COUNTRY:*</label>
+                                <select class="dropdown-select" name="country" required>
+                                    <option value="Argentina" selected>Argentina</option>
+                                    <option value="Brazil">Brazil</option>
+                                    <option value="Chile">Chile</option>
+                                    <option value="Uruguay">Uruguay</option>
+                                </select>
+                            </li>
+                            <li class="filter-ul-li">
+                                <label for="country">STATE/PROVINCE:*</label>
+                                <input type="text" placeholder="State or province..." required>
+                            </li>
+                            <li class="filter-ul-li">
+                                <label for="country">BUDGET:</label>
+                                <input class="input-n" type="number" placeholder="Amount..." min="0">
+                            </li>
+                            <li class="filter-ul-li">
+                                <a href="./detail.html"><input class="search-blue-btn" type="submit" value="Search"></a>
+                                <button>&sdotb; clear filter</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </section>
+            <section class="houses-section">
+                <h2>Search Results Found 6 house(s)</h2>
+                <div class="houses-container">
+                    <div class="house house-one">
+                        <span>PRICE: 5000$</span>
+                    </div>
+                    <div class="house house-two">
+                        <span>PRICE: 6000$</span>
+                    </div>
+                    <div class="house house-three">
+                        <span>PRICE: 7000$</span>
+                    </div>
+                    <div class="house house-four">
+                        <span>PRICE: 7500$</span>
+                    </div>
+                    <div class="house house-five">
+                        <span>PRICE: 8500$</span>
+                    </div>
+                    <div class="house house-six">
+                        <span>PRICE: 10000$</span>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <div class="top">
+            <ul class="footer-top-ul">
+                <li class="footer-top-list-element"><a href="index.html">HOME</a></li>
+                <li class="footer-top-list-element"><a href="searchNdetail/search.html">SEARCH</a></li>
+                <li class="footer-top-list-element"><a href="#">ABOUT</a></li>
+                <li class="footer-top-list-element"><a href="#">ADVERTISE</a></li>
+                <li class="icon-li">
+                    <a href="#"><i class="fas fa-laptop-house"></i></a>
+                </li>
+                <li class="footer-top-list-element"><a href="#">FACEBOOK</a></li>
+                <li class="footer-top-list-element"><a href="#">TWITTER</a></li>
+                <li class="footer-top-list-element"><a href="#">BLOGS</a></li>
+                <li class="footer-top-list-element"><a href="#">GOOGLE+</a></li>
+            </ul>
+        </div>
+        <div class="mid">
+            <div class="subscribe">
+                <h6>SUBSCRIBE</h6>
+                <div class="subscribe-form">
+                    <input class="em" placeholder="you@example.com" type="email" name="em" id="em">
+                    <input class="em-button" type="button" value="send">
+                </div>
+            </div>
+            <div class="contact">
+                <h6>CONTACT US</h6>
+                <p>Have a question or submission?</p>
+                <p class="contact-p">federicolopezce@gmail.com</p>
+            </div>
+            <div class="about-us">
+                <h6>ABOUT</h6>
+                <p>Housed is an online platform that brings to you the best</p>
+                <p>places to rent and accomodate in the entire southamerica by simple</p>
+                <p>searching by country, region, e.t.c <span class="contact-p">Learn more</span></p>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="social-media-icons">
+                <ul class="social-media-ul">
+                    <li><i class="fab fa-facebook-f"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-google-plus-g"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>&reg; Housed 2021 ALL RIGHTS RESERVED</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
