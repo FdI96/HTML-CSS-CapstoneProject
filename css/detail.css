@@ -54,6 +54,11 @@ font-size: 40px;
 
 /*end sm navbar style*/
 
+.info {
+  margin: 20px 20px 30px 20px;
+  border: solid 3px grey;
+}
+
 h3 {
   color: #D95E4B;
 }
@@ -74,7 +79,53 @@ h3 {
 }
 
 .proceed span {
-  background-color: ;
+  background-color: #559CD8;
+  color: white;
+}
+
+.contact-ul-h6 {
+  padding-right: 5px;
+}
+
+.contact-ul {
+  list-style: none;
+}
+
+.ic-span {
+  padding-right: 5px;
+}
+
+.ic {
+  color: #559CD8;
+}
+
+.green {
+  padding-left: 5px;
+  color: green;
+}
+
+.description-p {
+  text-align: justify;
+}
+
+.more-details h3 {
+  color: black;
+  background-color: rgb(163, 162, 162);
+  opacity: 0.5;
+  text-align: center;
+}
+
+.map-section {
+  margin: 0 20px 20px 20px;
+}
+
+.map-container h3 {
+  text-align: center;
+}
+
+.map-img {
+  width: 100%;
+  height: 100%;
 }
 
 /*start sm footer style*/
@@ -148,6 +199,22 @@ h3 {
   }
 
   /*end md navbar style*/
+
+  .contact-ul {
+    padding-left: 0;
+    padding-bottom: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-ul li {
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+    padding-left: 5px;
+    border-right: black solid 1px;
+  }
 
   /*start md footer style*/
 
@@ -305,5 +372,14 @@ h3 {
     padding-right: 20px;
   }
 
-  /*end lg navbar style*/  
+  /*end lg navbar style*/
+
+  .contact-ul {
+    padding-left: 0;
+    padding-bottom: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 }
