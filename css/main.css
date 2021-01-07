@@ -119,13 +119,13 @@ body {
   width: 100%;
 }
 
+.h6-style {
+  font-size: 1rem;
+}
+
 .insideform-container .h6-style {
   padding: 10px 10px 0 10px;
   margin: 0;
-}
-
-.h6-style {
-  font-size: 1rem;
 }
 
 .insideform-container input {
@@ -321,7 +321,7 @@ body {
 
 .h3-style {
   color: #d95e4b;
-  font-size: calc(1.3rem + .6vw);
+  font-size: calc(1.3rem + 0.6vw);
 }
 
 .details {
@@ -395,6 +395,11 @@ body {
   background: none !important;
   height: 500px;
   width: 100%;
+}
+
+.frame-class {
+  width: 100%;
+  height: 100%;
 }
 
 /* end sm detail.css */
