@@ -349,6 +349,9 @@ body {
 
 .contact-ul {
   list-style: none;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
 }
 
 .ic-span {
@@ -707,8 +710,8 @@ body {
     padding-left: 0;
     padding-bottom: 20px;
     margin: 0;
-    display: flex;
     flex-direction: row;
+    justify-content: flex-end;
   }
 
   .contact-ul li {
@@ -924,7 +927,6 @@ body {
     padding-left: 0;
     padding-bottom: 20px;
     margin: 0;
-    display: flex;
     flex-direction: row;
     justify-content: flex-end;
   }
