@@ -18,18 +18,18 @@
   padding-right: 10px;
 }
 
-.nav-buttons-ul a,
-.nav-buttons-ul a:visited,
-.nav-buttons-ul a:hover {
-  text-decoration: none;
-  color: white;
-}
-
 .nav-tittle a,
 .nav-tittle a:visited {
   text-decoration: none;
   color: white;
   letter-spacing: 5px;
+}
+
+.nav-buttons-ul a,
+.nav-buttons-ul a:visited,
+.nav-buttons-ul a:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .nav-i-search,
@@ -305,7 +305,7 @@ h2 {
 
   .bottom {
     height: 20%;
-    background-color: #1F1F1F;
+    background-color: #1f1f1f;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -398,7 +398,7 @@ h2 {
   }
 
   .contact-p {
-    color: #D4574A;
+    color: #d4574a;
   }
 
   .social-media-icons {
@@ -410,7 +410,6 @@ h2 {
     margin: 0 0 0 10px;
     display: flex;
     flex-direction: row;
-    color: white;
     align-items: center;
     justify-content: start;
     width: 100%;
