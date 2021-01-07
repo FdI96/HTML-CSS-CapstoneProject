@@ -33,12 +33,13 @@
             <section class="filter-section">
                 <div class="filter-container">
                     <h6>Filter by Country, State/Province and budget:</h6>
-                    <form action="">
+                    <form action="#" id="country">
                         <ul class="filter-ul">
                             <li class="filter-ul-li">
                                 <label for="country">COUNTRY:*</label>
-                                <select class="dropdown-select" name="country" required>
-                                    <option value="Argentina" selected>Argentina</option>
+                                <select class="dropdown-select" name="country" required placeholder="Country">
+                                    <option value=""></option>
+                                    <option value="Argentina">Argentina</option>
                                     <option value="Brazil">Brazil</option>
                                     <option value="Chile">Chile</option>
                                     <option value="Uruguay">Uruguay</option>
@@ -53,8 +54,7 @@
                                 <input class="input-n" type="number" placeholder="Amount..." min="0">
                             </li>
                             <li class="filter-ul-li btns">
-                                <a href="./search.html"><input class="btn search-blue-btn" type="submit"
-                                        value="Search"></a>
+                                <input class="btn search-blue-btn" type="submit" value="Search">
                                 <button class="btn">&sdotb; clear filter</button>
                             </li>
                         </ul>
