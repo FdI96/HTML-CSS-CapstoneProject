@@ -24,6 +24,11 @@ body {
   color: white;
 }
 
+.search-red-container a {
+  text-decoration: none;
+  color: white;
+}
+
 .nav-tittle a,
 .nav-tittle a:visited {
   text-decoration: none;
@@ -52,11 +57,6 @@ body {
   padding-top: 10px;
   padding-left: 0;
   width: 50%;
-}
-
-.search-red-container a {
-  text-decoration: none;
-  color: white;
 }
 
 .nav-buttons-ul a:visited,
@@ -360,15 +360,15 @@ body {
     color: black;
   }
 
+  .footer-top-ul a {
+    text-decoration: none;
+    color: white;
+  }
+
   .button-c-red a,
   .button-c-red a:visited {
     text-decoration: none;
     color: #e27f65;
-  }
-
-  .footer-top-ul a {
-    text-decoration: none;
-    color: white;
   }
 
   .button-c-black a:visited {
