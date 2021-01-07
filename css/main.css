@@ -1,6 +1,19 @@
 /* Mobile Version */
 body {
   overflow-x: hidden;
+  text-decoration: none;
+}
+
+.ds-flex {
+  display: flex;
+}
+
+.wte {
+  color: white;
+}
+
+.ndc {
+  text-decoration: none;
 }
 
 #navbar {
@@ -9,24 +22,14 @@ body {
 
 .nav-tittle {
   width: 100%;
+  justify-content: center;
   text-align: center;
   padding-bottom: 10px;
   padding-top: 10px;
-  color: white;
 }
 
 .nav-tittle i {
   padding-right: 10px;
-}
-
-.nav-buttons-ul a {
-  text-decoration: none;
-  color: white;
-}
-
-.search-red-container a {
-  text-decoration: none;
-  color: white;
 }
 
 .nav-tittle a,
@@ -48,11 +51,9 @@ body {
 }
 
 .nav-buttons-ul {
-  display: flex;
   flex-direction: row;
   list-style-type: none;
   margin-bottom: 0;
-  color: white;
   padding-bottom: 20px;
   padding-top: 10px;
   padding-left: 0;
@@ -75,7 +76,6 @@ body {
   background-position: 65% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -100,7 +100,6 @@ body {
 
 .tittle-form-container {
   position: absolute;
-  display: flex;
   flex-direction: column;
   align-items: center;
   width: 80%;
@@ -109,7 +108,6 @@ body {
 
 .img-bg-insidetittle {
   text-align: center;
-  color: white;
 }
 
 .insideform-container {
@@ -424,7 +422,6 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: start;
@@ -451,7 +448,6 @@ body {
 
   .nav-tittle {
     width: 50%;
-    display: flex;
     justify-content: start;
   }
 
@@ -482,7 +478,6 @@ body {
   }
 
   .tittle-form-container {
-    display: flex;
     flex-direction: column;
     align-items: center;
   }
@@ -534,7 +529,6 @@ body {
   }
 
   .step {
-    display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -568,7 +562,6 @@ body {
   }
 
   .info-img {
-    display: flex;
     align-items: center;
     justify-content: center;
     width: 30%;
@@ -576,7 +569,6 @@ body {
 
   .info {
     padding: 20px 0 20px 0;
-    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -610,11 +602,9 @@ body {
   }
 
   .info-text {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    color: white;
     width: 30%;
     margin-left: 30px;
     text-align: start;
