@@ -69,7 +69,7 @@ body {
 
 .img-bg-container::after {
   content: ' ';
-  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.671),transparent);
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.671), transparent);
   height: 812px;
   width: 100%;
   z-index: 2;
@@ -296,7 +296,7 @@ body {
     justify-content: center;
     width: 30%;
   }
- 
+
   .info {
     padding: 20px 0 20px 0;
     display: flex;
@@ -324,7 +324,7 @@ body {
 
   .gradient::after {
     content: ' ';
-    background-image: linear-gradient(to bottom right,rgba(0, 0, 0, 0.671),transparent);
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.671), transparent);
     height: 200px;
     width: 250px;
     z-index: 3;
@@ -358,18 +358,18 @@ body {
     text-decoration: none;
     color: black;
   }
- 
+
   .info-img-one {
     height: 200px;
     border-radius: 1rem;
     width: 125px;
   }
- 
+
   .footer {
     display: contents;
     height: 600px;
   }
- 
+
   .top,
   .mid {
     height: 40%;
@@ -487,7 +487,6 @@ body {
     margin: 0 0 0 10px;
     display: flex;
     flex-direction: row;
-    color: white;
     align-items: center;
     justify-content: start;
     width: 100%;
