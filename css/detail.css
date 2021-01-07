@@ -14,7 +14,12 @@
 .nav-tittle i {
   padding-right: 10px;
 }
-  
+
+.nav-buttons-ul a {
+  text-decoration: none;
+  color: white;
+}
+ 
 .nav-tittle a,
 .nav-tittle a:visited {
   text-decoration: none;
@@ -30,7 +35,7 @@
 }
 
 .fa-map-marker-alt {
-font-size: 40px;
+  font-size: 40px;
 }
 
 .nav-buttons-ul {
@@ -45,7 +50,6 @@ font-size: 40px;
   width: 50%;
 }
 
-.nav-buttons-ul a,
 .nav-buttons-ul a:visited,
 .nav-buttons-ul a:hover {
   text-decoration: none;
@@ -62,6 +66,7 @@ font-size: 40px;
 h3 {
   color: #d95e4b;
 }
+
 .details {
   text-align: center;
 }
@@ -152,7 +157,6 @@ h3 {
   padding: 0;
   display: flex;
   flex-direction: row;
-  color: white;
   align-items: center;
   justify-content: start;
   width: 100%;
@@ -222,7 +226,7 @@ h3 {
     display: contents;
     height: 600px;
   }
- 
+
   .top,
   .mid {
     height: 40%;
@@ -340,7 +344,6 @@ h3 {
     margin: 0 0 0 10px;
     display: flex;
     flex-direction: row;
-    color: white;
     align-items: center;
     justify-content: start;
     width: 100%;
