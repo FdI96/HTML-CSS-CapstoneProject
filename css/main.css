@@ -65,6 +65,10 @@ body {
   color: white;
 }
 
+/* Ends sm navbar style */
+
+/* start sm main.css */
+
 .img-bg-container {
   background-image: url('../images/warmhouse-bg.jpg');
   height: 812px;
@@ -112,12 +116,16 @@ body {
   background-color: rgb(182, 180, 180);
   opacity: 0.9;
   border-radius: 15px;
-  width: 300px;
+  width: 100%;
 }
 
-.insideform-container h6 {
+.insideform-container .h6-style {
   padding: 10px 10px 0 10px;
   margin: 0;
+}
+
+.h6-style {
+  font-size: 1rem;
 }
 
 .insideform-container input {
@@ -143,7 +151,7 @@ body {
   padding: 5px;
 }
 
-.search-red-container h6 {
+.search-red-container .h6-style {
   position: relative;
   bottom: 5px;
 }
@@ -160,9 +168,8 @@ body {
   margin-top: 50px;
   padding: 10px;
   border-radius: 5px;
-  position: relative;
-  right: 40px;
-  width: 120px;
+  width: 100%;
+  text-align: center;
 }
 
 .mid-part {
@@ -173,13 +180,265 @@ body {
   display: none;
 }
 
-.footer {
+/* end sm main.css */
+
+/* start sm search.css */
+
+.filter-container {
+  background-color: #eee;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.only-form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.filter-ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.filter-ul-li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0 10px 0;
+  width: 100%;
+}
+
+.dropdown-select {
+  width: 100%;
+  height: 30px;
+}
+
+.search-blue-btn {
+  background-color: #457db4;
+  color: white;
+  border: 0;
+  font-size: 14px;
+}
+
+.filter-ul-li button {
+  background-color: #e5ab5b;
+  color: white;
+  border: 0;
+}
+
+.input-n::-webkit-outer-spin-button,
+.input-n::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-n[type=number] {
+  -moz-appearance: textfield;
+}
+
+.houses-section {
+  margin-top: 50px;
+}
+
+.search-result-tittle {
+  color: gray;
+  text-align: center;
+}
+
+.houses-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.house {
+  margin: 20px;
+  display: flex;
+  align-items: flex-end;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #e17f66;
+  width: 100%;
+  height: 200px;
+}
+
+.house span {
+  display: flex;
+  text-align: center;
+  width: 20%;
+  border: 1px solid black;
+  color: white;
+  background-color: #519cd7;
+}
+
+.house-one {
+  background-image: url('../images/searchpageimgs/house1.jpg');
+}
+
+.house-two {
+  background-image: url('../images/searchpageimgs/house2.jpg');
+}
+
+.house-three {
+  background-image: url('../images/searchpageimgs/house3.jpg');
+}
+
+.house-four {
+  background-image: url('../images/searchpageimgs/house4.jpg');
+}
+
+.house-five {
+  background-image: url('../images/searchpageimgs/house5.jpg');
+}
+
+.house-six {
+  background-image: url('../images/searchpageimgs/house6.jpg');
+}
+
+.big-link {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 4;
+}
+
+/* end sm search.css */
+
+/* start sm detail.css */
+
+.info3 {
+  margin: 20px 20px 30px 20px;
+  border: solid 3px grey;
+}
+
+.h3-style {
+  color: #d95e4b;
+  font-size: calc(1.3rem + .6vw);
+}
+
+.details {
+  text-align: center;
+}
+
+.details .h6-style {
+  border: gray 1px solid;
+}
+
+.details span {
+  color: #99bee3;
+}
+
+.proceed {
+  text-align: end;
+}
+
+.proceed span {
+  background-color: #559cd8;
+  color: white;
+}
+
+.contact-ul-h6 {
+  padding-right: 5px;
+}
+
+.contact-ul {
+  list-style: none;
+}
+
+.ic-span {
+  padding-right: 5px;
+}
+
+.ic {
+  color: #559cd8;
+}
+
+.green {
+  padding-left: 5px;
+  color: green;
+}
+
+.description-p {
+  text-align: justify;
+}
+
+.more-details .h3-style {
+  color: black;
+  background-color: rgb(163, 162, 162);
+  opacity: 0.5;
+  text-align: center;
+}
+
+.map-section {
+  margin: 0 20px 20px 20px;
+}
+
+.map-container .h3-style {
+  text-align: center;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 100%;
+}
+
+/* end sm detail.css */
+
+.top,
+.mid {
   display: none;
+}
+
+.bottom {
+  height: 20%;
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  padding: 10px 0 10px 0;
+}
+
+.social-media-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  color: gray;
+}
+
+.social-media-ul li {
+  padding-left: 2px;
+}
+
+.copyright p {
+  text-align: center;
+  margin: 0;
 }
 
 /* End of mobile version */
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   #navbar {
     display: flex;
     flex-direction: row;
@@ -205,6 +464,10 @@ body {
     width: 80%;
   }
 
+  /* end md navbar style */
+
+  /* start md main.css */
+
   .img-bg-container {
     background-image: url('../images/mdscreen.jpg');
   }
@@ -220,7 +483,7 @@ body {
   }
 
   .insideform-container {
-    width: 65%;
+    width: 100%;
   }
 
   .input-n-search {
@@ -244,6 +507,7 @@ body {
 
   .how-container {
     left: 0;
+    width: 20%;
   }
 
   .mid-part {
@@ -314,7 +578,7 @@ body {
   }
 
   .move,
-  .house {
+  .house1 {
     height: 200px;
     width: 250px;
     border-radius: 25rem;
@@ -381,6 +645,88 @@ body {
     border-radius: 1rem;
     width: 125px;
   }
+
+  /* end md main.css */
+
+  /* start md search.css */
+
+  .only-form {
+    display: block;
+    width: 90%;
+  }
+
+  .filter-ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .filter-ul-li {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+
+  .btns {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 70%;
+  }
+
+  .btn {
+    height: 30px;
+    text-align: center;
+    padding: 0;
+    width: 50%;
+  }
+
+  .search-blue-btn {
+    margin-right: 10px;
+  }
+
+  .yellow-btn {
+    font-size: 10px;
+  }
+
+  .dropdown-select {
+    width: 100%;
+  }
+
+  .houses-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .house {
+    margin: 0;
+  }
+
+  /* end md search.css */
+
+  /* start md detail.css */
+
+  .contact-ul {
+    padding-left: 0;
+    padding-bottom: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-ul li {
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+    padding-left: 5px;
+    border-right: black solid 1px;
+  }
+
+  /* end md detail.css */
+
+  /* start md footer style */
 
   .footer {
     display: contents;
@@ -453,7 +799,7 @@ body {
     text-align: center;
   }
 
-  .mid h6 {
+  .mid .h6-style {
     letter-spacing: 5px;
     padding-bottom: 20px;
   }
@@ -516,6 +862,8 @@ body {
   .copyright {
     margin-right: 30px;
   }
+
+  /* end md footer style */
 }
 
 @media (min-width: 1024px) {
@@ -529,6 +877,10 @@ body {
   .nav-buttons-ul i {
     padding-right: 20px;
   }
+
+  /* end lg navbar style */
+
+  /* start lg main.css */
 
   .img-bg-container {
     background-image: url('../images/warmhouse-bg.jpg');
@@ -548,4 +900,39 @@ body {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
+
+  /* end lg main.css */
+
+  /* start lg search.css */
+
+  .houses-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .houses-section {
+    margin-bottom: 50px;
+  }
+
+  .house {
+    margin: 0;
+  }
+
+  /* end lg search.css */
+
+  /* start lg detail.css */
+
+  .contact-ul {
+    padding-left: 0;
+    padding-bottom: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  /* end lg detail.css */
 }

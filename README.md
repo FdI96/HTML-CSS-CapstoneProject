@@ -7,15 +7,11 @@
 I'm very excited to say that this is my first CapStone project for Microverse, about HTML and CSS. To be honest I really enjoyed
 working on this project. I used all of my knowledge from the past weeks to make this since semantics tags to pseudo-selectors, gradients, responsive tecnhique, flexbox, grid, bootstrap, linking different pages and work by myself!
 
-![screenshot](images/mainscreenshot.png)
-![screenshot](images/searchpage.png)
-![screenshot](images/detailpage.png)
+![screenshot](images/mockup.png)
 
 The purpose of this project is to create a similar looking webpage like the "client" ask for. In this case the honorables TSE are my "client".
 
 So I had to clone the layout and desing from the screenshots that I received using everything that I learned from the HTML&CSS module.
-
-To visit the page go to the [Live Demo Link](https://fdi96.github.io/HTML-CSS-CapstoneProject/)
 
 # Prerequisites :
 
@@ -39,6 +35,11 @@ To visit the page go to the [Live Demo Link](https://fdi96.github.io/HTML-CSS-Ca
 - GitHub: [@FdI96](https://github.com/FdI96)
 - Twitter: [@federicolopezc7 ](https://twitter.com/federicolopezc7)
 - LinkedIn: [Federico Ignacio](https://www.linkedin.com/in/federico-ignacio-3285411a4/)
+
+## ACKNOWLEDGEMENT SECTION
+
+I must to say thanks to the webpage: [Behance](https://www.behance.net/gallery/25563385/PatashuleKE) and the designer of the PatashuleKE profile
+for making this desing and let this available to anyone who would like to practice with it.
 
 ## SHOW YOUR SUPPORT
 

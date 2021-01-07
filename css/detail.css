@@ -58,20 +58,21 @@
 
 /* end sm navbar style */
 
-.info {
+.info3 {
   margin: 20px 20px 30px 20px;
   border: solid 3px grey;
 }
 
-h3 {
+.h3-style {
   color: #d95e4b;
+  font-size: calc(1.3rem + .6vw);
 }
 
 .details {
   text-align: center;
 }
 
-.details h6 {
+.details .h6-style {
   border: gray 1px solid;
 }
 
@@ -113,7 +114,7 @@ h3 {
   text-align: justify;
 }
 
-.more-details h3 {
+.more-details .h3-style {
   color: black;
   background-color: rgb(163, 162, 162);
   opacity: 0.5;
@@ -124,7 +125,7 @@ h3 {
   margin: 0 20px 20px 20px;
 }
 
-.map-container h3 {
+.map-container .h3-style {
   text-align: center;
 }
 
@@ -133,9 +134,11 @@ h3 {
   justify-content: center;
 }
 
-.map-img {
-  width: 50%;
-  height: 50%;
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 100%;
 }
 
 /* start sm footer style */
@@ -299,7 +302,7 @@ h3 {
     text-align: center;
   }
 
-  .mid h6 {
+  .mid .h6-style {
     letter-spacing: 5px;
     padding-bottom: 20px;
   }
