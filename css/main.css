@@ -154,6 +154,21 @@ body {
   bottom: 5px;
 }
 
+.button-c-red a {
+  text-decoration: none;
+  color: #e27f65;
+}
+
+.footer-top-ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.button-c-black a {
+  text-decoration: none;
+  color: black;
+}
+
 .search-red-container a:visited {
   text-decoration: none;
   color: white;
@@ -232,7 +247,7 @@ body {
   padding: 20px 0 20px 0;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;;
+  align-items: center;
 }
 
 .move,
@@ -279,17 +294,6 @@ body {
   border: none;
 }
 
-.button-c-black a {
-  text-decoration: none;
-  color: black;
-}
-
-.footer-top-ul a {
-  text-decoration: none;
-  color: white;
-}
-
-.button-c-red a,
 .button-c-red a:visited {
   text-decoration: none;
   color: #e27f65;
@@ -313,8 +317,6 @@ body {
 .filter-section {
   margin: 20px;
 }
-
-.houses
 
 .filter-container {
   background-color: #eee;
