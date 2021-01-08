@@ -60,6 +60,21 @@ body {
   width: 50%;
 }
 
+.button-c-red a {
+  text-decoration: none;
+  color: #e27f65;
+}
+
+.footer-top-ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.button-c-black a {
+  text-decoration: none;
+  color: black;
+}
+
 .nav-buttons-ul a:visited,
 .nav-buttons-ul a:hover {
   text-decoration: none;
@@ -152,21 +167,6 @@ body {
 .search-red-container .h6-style {
   position: relative;
   bottom: 5px;
-}
-
-.button-c-red a {
-  text-decoration: none;
-  color: #e27f65;
-}
-
-.footer-top-ul a {
-  text-decoration: none;
-  color: white;
-}
-
-.button-c-black a {
-  text-decoration: none;
-  color: black;
 }
 
 .search-red-container a:visited {
