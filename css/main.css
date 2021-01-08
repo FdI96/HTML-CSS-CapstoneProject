@@ -171,16 +171,150 @@ body {
 }
 
 .mid-part {
-  display: none;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.mid-part-tittle {
+  color: #e27f65;
+}
+
+.fa-newspaper,
+.fa-map-marked-alt,
+.fa-wpforms,
+.fa-truck-moving {
+  font-size: 54px;
+}
+
+.step {
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.step p {
+  width: 50%;
 }
 
 .lower-part {
-  display: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.more-information {
+  width: 100%;
+  text-align: center;
+}
+
+.info-red {
+  background-color: #e27f65;
+}
+
+.info-gray {
+  background-color: #98a5a5;
+}
+
+.info-blue {
+  background-color: rgb(68, 154, 234);
+}
+
+.info-img {
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  order: 0;
+  padding-bottom: 20px;
+}
+
+.info {
+  padding: 20px 0 20px 0;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;;
+}
+
+.move,
+.house1 {
+  height: 200px;
+  width: 250px;
+  border-radius: 25rem;
+}
+
+.gradient::before {
+  content: '';
+  background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.671), transparent);
+  height: 200px;
+  width: 250px;
+  z-index: 4;
+  position: absolute;
+  border-radius: 25rem;
+}
+
+.gradient::after {
+  content: ' ';
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.671), transparent);
+  height: 200px;
+  width: 250px;
+  z-index: 3;
+  position: absolute;
+  border-radius: 25rem;
+}
+
+.info-text {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  text-align: center;
+  order: 2;
+}
+
+.info-text p {
+  width: 100%;
+}
+
+.info-text-button {
+  border: none;
+}
+
+.button-c-black a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-top-ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.button-c-red a,
+.button-c-red a:visited {
+  text-decoration: none;
+  color: #e27f65;
+}
+
+.button-c-black a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.info-img-one {
+  height: 200px;
+  border-radius: 1rem;
+  width: 125px;
 }
 
 /* end sm main.css */
 
 /* start sm search.css */
+
+.filter-section {
+  margin: 20px;
+}
+
+.houses
 
 .filter-container {
   background-color: #eee;
@@ -241,7 +375,7 @@ body {
 }
 
 .houses-section {
-  margin-top: 50px;
+  margin: 50px 20px 20px 20px;
 }
 
 .search-result-tittle {
@@ -514,7 +648,6 @@ body {
   }
 
   .mid-part {
-    display: flex;
     flex-direction: column;
     text-align: center;
     margin-top: 100px;
@@ -893,7 +1026,7 @@ body {
     background-color: #d4574a;
   }
 
-  .grid-section {
+  .grid-sectcion {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
