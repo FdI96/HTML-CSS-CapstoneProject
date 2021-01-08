@@ -32,7 +32,27 @@ body {
   padding-right: 10px;
 }
 
-.nav-tittle a,
+.nav-tittle a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.button-c-red a {
+  text-decoration: none;
+  color: #e27f65;
+}
+
+.footer-top-ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.button-c-black a {
+  text-decoration: none;
+  color: black;
+}
+
 .nav-tittle a:visited {
   text-decoration: none;
   color: white;
@@ -58,21 +78,6 @@ body {
   padding-top: 10px;
   padding-left: 0;
   width: 50%;
-}
-
-.button-c-red a {
-  text-decoration: none;
-  color: #e27f65;
-}
-
-.footer-top-ul a {
-  text-decoration: none;
-  color: white;
-}
-
-.button-c-black a {
-  text-decoration: none;
-  color: black;
 }
 
 .nav-buttons-ul a:visited,
