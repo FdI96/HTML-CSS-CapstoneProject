@@ -1033,7 +1033,7 @@ body {
     background-color: #d4574a;
   }
 
-  .grid-sectcion {
+  .grid-section {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
